@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 :root{
 	--very-dark-blue: hsl(233, 47%, 7%);
 	--dark-desaturated-blue: hsl(244, 38%, 16%);
@@ -6,8 +6,6 @@
 	--white: hsl(0, 0%, 100%);
 	--slightly-transparent-white-m: hsla(0, 0%, 100%, 0.75);
 	--slightly-tranparent-white-s: hsla(0, 0%, 100%, 0.6);
-	--font-inter: 'Inter', sans-serif;
-	--font-lexa: 'Lexend Deca', sans-serif;
 }
 *{
 	margin: 0;
@@ -19,6 +17,7 @@ body::-webkit-scrollbar{
 }
 body{
 	background-color: var(--very-dark-blue);
+	font-family: 'Inter', sans-serif;
 	font-size: 15px;
 	display: flex;
 	align-items: center;
@@ -41,7 +40,6 @@ body{
 }
 .main-h{
 	color: var(--white);
-	font-family: var(--font-inter);
 	font-size: 33px;
 	font-weight: 700;
 }
@@ -50,7 +48,6 @@ body{
 }
 .main-p{
 	color: var(--slightly-transparent-white-m);
-	font-family: var(--font-inter);
 	font-weight: 400;
 	line-height: 1.6;
 	padding-top: 20px;
@@ -64,13 +61,11 @@ body{
 .stats .number{
 	color: var(--white);
 	padding-bottom: 8px;
-	font-family: var(--font-inter);
 	font-size: 20px;
 	font-weight: 700;
 }
 .stats p{
 	color: var(--slightly-tranparent-white-s);
-	font-family: var(--font-inter);
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 1.5px;
