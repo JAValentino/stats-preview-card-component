@@ -1,5 +1,5 @@
-Frontend Mentor Challenge https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
+Frontend Mentor Challenge: https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
 
-Source Code https://codepen.io/javalentino/pen/XWVMQYd
+Codepen: https://codepen.io/javalentino/pen/XWVMQYd
 
-Link https://javalentino.github.io/stats-preview-card-component/
+Link: https://javalentino.github.io/stats-preview-card-component/
